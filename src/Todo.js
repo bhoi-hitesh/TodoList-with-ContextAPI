@@ -39,7 +39,7 @@ const Todo = () => {
                     <div className="col-lg-12 mb-5">
                         <div className="todo-bottom">
                             <ul className='list-group'>
-                                <Scrollbars style={{ width: "100%", height: '20rem' }} className=" rounded-2">
+                                <Scrollbars style={{ width: "100%", height: '30rem' }} className=" rounded-2">
                                     {todo.map((e, i) => {
                                         return (
                                             <>
